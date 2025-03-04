@@ -31,7 +31,7 @@ public class Literals {
     System.out.println(myString); // Output: Hello, World!
 
     // Boolean Literals
-    boolean myBool = true;
+    boolean myBool = (5 != 3);
     System.out.println(myBool); // Output: true
   }
 }
