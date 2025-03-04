@@ -21,6 +21,10 @@ public class Literals {
     System.out.println(sth); // Output: New Line
     sth = '\f'; // Form Feed
     System.out.println(sth); // Output: Form Feed
+    sth = '\u0000'; // Null
+    System.out.println(sth); // Output: Null
+    sth = '\uffff'; // Not a character
+    System.out.println(sth); // Output: Not a character
 
     // String Literals
     String myString = "Hello, World!";
