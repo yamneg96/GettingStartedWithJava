@@ -1,0 +1,66 @@
+Integer Literals
+Integer literals are numeric values (associated with numbers) without any fractional or exponential part. There are 4 types of integer literals in Java:
+
+binary (base 2)
+decimal (base 10)
+octal (base 8)
+hexadecimal (base 16)
+For example:
+
+// binary
+int binaryNumber = 0b10010;
+// octal 
+int octalNumber = 027;
+
+// decimal
+int decNumber = 34;
+
+// hexadecimal 
+int hexNumber = 0x2F; // 0x represents hexadecimal
+// binary
+int binNumber = 0b10010; // 0b represents binary
+In Java, binary starts with 0b, octal starts with 0, and hexadecimal starts with 0x.
+
+Note: Integer literals are used to initialize variables of integer types like byte, short, int, and long.
+
+Floating-point Literals
+Floating-point literals are numeric literals that have either a fractional form or an exponential form. For example,
+
+class Main {
+  public static void main(String[] args) {
+    	
+    double myDouble = 3.4;
+    float myFloat = 3.4F;
+ 
+    // 3.445*10^2
+    double myDoubleScientific = 3.445e2;
+
+    System.out.println(myDouble);  // prints 3.4
+    System.out.println(myFloat);    // prints 3.4
+    System.out.println(myDoubleScientific);   // prints 344.5
+  }
+}
+
+Note: The floating-point literals are used to initialize float and double type variables.
+
+Character Literals
+Character literals are unicode characters enclosed inside single quotes. For example,
+
+char letter = 'a';
+Here, a is the character literal.
+
+We can also use escape sequences as character literals. For example, \b (backspace), \t (tab), \n (new line), etc.
+
+String Literals
+A string literal is a sequence of characters enclosed inside double-quotes. For example,
+
+String str1 = "Java Programming";
+String str2 = "Programiz";
+Here, Java Programming and Programiz are two string literals.
+
+Boolean Literals
+In Java, boolean literals are used to initialize boolean data types. They can store two values: true and false. For example,
+
+boolean flag1 = false;
+boolean flag2 = true;
+Here, false and true are two boolean literals
