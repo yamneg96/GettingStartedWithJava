@@ -20,5 +20,9 @@ public class Variables {
         // Declare a variable of type boolean
         boolean myBool = true;
         // Print the value of the variable
+        System.out.println(myBool); // Output: true
+
+        // Declare a variable of type String
+        String myText = "Hello";
     }
 }
