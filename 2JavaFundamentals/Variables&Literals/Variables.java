@@ -24,7 +24,5 @@ public class Variables {
 
         // Declare a variable of type String
         String myText = "Hello";
-        // Print the value of the variable
-        System.out.println(myText); // Output: Hello
     }
 }
