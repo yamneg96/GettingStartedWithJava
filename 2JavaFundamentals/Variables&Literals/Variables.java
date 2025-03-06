@@ -12,11 +12,6 @@ public class Variables {
         // Print the value of the variable
         System.out.println(myDouble); // Output: 5.99
 
-        // Declare a variable of type char
-        char myLetter = 'D';
-        // Print the value of the variable
-        System.out.println(myLetter); // Output: D
-
         // Declare a variable of type boolean
         boolean myBool = true;
         // Print the value of the variable
