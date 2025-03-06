@@ -21,5 +21,7 @@ public class Variables {
         String myText = "Hello";
         // Print the value of the variable
         System.out.println(myText); // Output: Hello
+        short myShort = 500;
+        System.out.println(myShort); // Output: 500
     }
 }
