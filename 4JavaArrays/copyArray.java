@@ -21,8 +21,9 @@ public class copyArray {
       // converting array to string
     System.out.println(Arrays.toString(destination));
 
-    /* COPYARRAY() METHOD
-     * The arraycopy() method allows you to copy a specified portion of the source array to the destination array. For example,
+    /* COPYARRAY() METHOD => ``` System.arraycopy() ```
+     * The arraycopy() method allows you to copy 
+     * a specified portion of the source array to the destination array. For example,
 
     arraycopy(Object src, int srcPos,Object dest, int destPos, int length)
     Here,
