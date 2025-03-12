@@ -1,14 +1,21 @@
 public class Methods {
   String language;
+  int sum;
 
   // constructor with no parameter
   Methods() {
+    this(5,2);//CONSTRUCTOR CALL MUST BE THE FIRST STATEMNET!
     this.language = "Java";
   }
 
   // constructor with a single parameter
   Methods(String language) {
     this.language = language;
+  }
+
+  Methods(int a, int b){
+    //add two value
+    this.sum = a + b;
   }
 
   public void getName() {
