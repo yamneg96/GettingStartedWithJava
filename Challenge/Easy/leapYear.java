@@ -21,6 +21,7 @@ public class leapYear {
 
   public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
+      System.out.print("Enter a year: ");
       int year = input.nextInt();
       String result = checkLeapYear(year);
       System.out.println(result);
